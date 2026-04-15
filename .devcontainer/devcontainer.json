@@ -11,9 +11,14 @@
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "esbenp.vscode-eslint", 
+        "esbenp.vscode-eslint",
         "ms-vscode.vscode-typescript-next"
-      ]
+      ],
+      "settings": {
+        "editor.fontSize": 32,
+        "terminal.integrated.fontSize": 24,
+        "editor.wordWrap": "on"
+      }
     }
   },
   "forwardPorts": [],

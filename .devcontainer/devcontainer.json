@@ -1,0 +1,21 @@
+{
+  "name": "Node.js & JavaScript",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "esbenp.vscode-eslint", 
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "echo 'Node.js dev container ready'"
+}
